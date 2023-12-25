@@ -6,7 +6,7 @@ export default defineNuxtConfig({
     '@nuxt/ui',
     '@nuxt/image',
     '@nuxtjs/google-fonts',
-    '@nuxtjs/fontaine'
+    '@nuxtjs/fontaine',
   ],
   googleFonts: {
     display: 'swap',

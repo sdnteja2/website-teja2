@@ -1,8 +1,6 @@
 /* eslint-disable ts/no-require-imports */
 import type { Config } from 'tailwindcss'
 
-import defaultTheme from 'tailwindcss/defaultTheme'
-
 export default <Partial<Config>>{
   theme: {
     fontSize: {
@@ -32,7 +30,7 @@ export default <Partial<Config>>{
           900: '#350303',
           950: '#1B0202',
         },
-        
+
       },
       fontFamily: {
         body: ['Rethink Sans', 'sans-serif'],
