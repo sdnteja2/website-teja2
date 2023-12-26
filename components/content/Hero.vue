@@ -17,7 +17,7 @@
       <div class="max-w-3xl mx-auto">
         <NuxtImg
           format="webp"
-          src="image/test2.jpg"
+          src="image/test.jpg"
           width="500"
           height="500"
           class="w-full h-auto aspect-video max-w-full object-cover rounded-md"
