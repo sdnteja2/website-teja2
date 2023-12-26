@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     '@nuxtjs/google-fonts',
     '@nuxtjs/fontaine',
     'nuxt-delay-hydration',
+    '@nuxtjs/cloudinary',
   ],
   delayHydration: {
     mode: 'mount',

@@ -15,7 +15,13 @@
       </div>
 
       <div>
-        INI Gambar
+        <CldImage
+          src="image/test2.jpg"
+          class="w-full h-[250px] md:h-[500px] object-cover rounded-md"
+          width="987"
+          height="987"
+          alt="My Awesome Image"
+        />
       </div>
     </div>
   </div>
