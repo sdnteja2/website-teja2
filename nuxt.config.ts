@@ -13,6 +13,12 @@ export default defineNuxtConfig({
   delayHydration: {
     mode: 'mount',
   },
+  image: {
+    cloudinary: {
+
+      baseURL: ' https://res.cloudinary.com/dyy24w5kl/image/upload/',
+    },
+  },
   ui: {
     icons: ['basil'],
   },

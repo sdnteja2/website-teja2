@@ -14,12 +14,12 @@
         </p>
       </div>
 
-      <div>
+      <div class="max-w-3xl mx-auto">
         <CldImage
           src="image/test2.jpg"
-          class="w-full h-[250px] md:h-[500px] object-cover rounded-md"
-          width="987"
-          height="987"
+          width="900px"
+          height="900px"
+          class="w-full h-auto aspect-video max-w-full object-cover rounded-md"
           alt="My Awesome Image"
         />
       </div>
