@@ -17,8 +17,8 @@
       <div class="max-w-3xl mx-auto">
         <CldImage
           src="image/test2.jpg"
-          width="900px"
-          height="900px"
+          width="500"
+          height="500"
           class="w-full h-auto aspect-video max-w-full object-cover rounded-md"
           alt="My Awesome Image"
         />
