@@ -22,7 +22,7 @@ function togglePopover(open, close) {
           </div>
           <div class="hidden md:block">
             <ContentNavigation v-slot="{ navigation }">
-              <ul class="flex">
+              <ul class="flex space-x-2">
                 <li v-for="link of navigation" :key="link._path">
                   <NuxtLink class="w-full flex  px-2 py-1" :to="link._path">
                     <span class="underline-fx" /> {{ link.title }}
@@ -77,7 +77,7 @@ nav ul a {
   }
 
   &:hover .underline-fx {
-    width: 100%;
+    width: 75%;
   }
 }
 </style>

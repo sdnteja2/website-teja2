@@ -8,16 +8,12 @@ export default defineNuxtConfig({
     '@nuxtjs/google-fonts',
     '@nuxtjs/fontaine',
     'nuxt-delay-hydration',
-    '@nuxtjs/cloudinary',
   ],
   delayHydration: {
     mode: 'mount',
   },
   image: {
-    cloudinary: {
-
-      baseURL: ' https://res.cloudinary.com/dyy24w5kl/image/upload/',
-    },
+    formats: ['webp'],
   },
   ui: {
     icons: ['basil'],

@@ -16,7 +16,6 @@
     "@nuxt/content": "^2.10.0",
     "@nuxt/image": "^1.1.0",
     "@nuxt/ui": "^2.11.1",
-    "@nuxtjs/cloudinary": "^2.5.1",
     "aos": "^2.3.4"
   },
   "devDependencies": {

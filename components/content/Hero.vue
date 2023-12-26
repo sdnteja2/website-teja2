@@ -1,28 +1,44 @@
+<script setup>
+defineProps({
+  title: {
+    type: String,
+    default: 'Wujudkan Impian Pendidikan Berkualitas untuk Semua',
+  },
+  description: {
+    type: String,
+    default: 'Lingkungan Belajar yang Nyaman, Kreatif, dan Menyenangkan',
+  },
+  image: {
+    type: String,
+    default: '/sdnteja2.png',
+  },
+})
+</script>
+
 <template>
-  <!-- Hero -->
   <div class="relative overflow-hidden">
     <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-10">
-      <div class="max-w-4xl text-center mx-auto">
-        <h1 class="block text-2xl font-extrabold  sm:text-4xl  ">
+      <div class="max-w-4xl pb-8 text-center mx-auto">
+        <h1 data-aos="fade-up" class="block text-2xl font-extrabold  sm:text-4xl  ">
           SDN Teja 2 <span class="dark:text-gray-200 text-slate-800"> <br>
-
-            Wujudkan Impian Pendidikan Berkualitas untuk Semua
+            {{ title }}
           </span>
         </h1>
-        <p class="mt-3 text-lg ">
-          Lingkungan Belajar yang Nyaman, Kreatif, dan Menyenangkan
+        <p data-aos="fade-up" class="mt-3 text-lg ">
+          {{ description }}}
         </p>
       </div>
 
-      <div class="max-w-3xl mx-auto">
-        <NuxtImg
-          format="webp"
-          src="image/test.jpg"
-          width="500"
-          height="500"
+      <div data-aos="fade-up" class="max-w-3xl mx-auto">
+        <img
+          :src="image"
+          loading="lazy"
+          title="SDN Teja II"
+          width="250"
+          height="100"
           class="w-full h-auto aspect-video max-w-full object-cover rounded-md"
-          alt="My Awesome Image"
-        />
+          alt="SDN Teja II"
+        >
       </div>
     </div>
   </div>
