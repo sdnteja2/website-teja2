@@ -1,6 +1,5 @@
 <script setup>
 // Remove the unused import statement for ref
-// import { ref } from 'vue'
 
 function togglePopover(open, close) {
   if (open)
@@ -23,25 +22,23 @@ function togglePopover(open, close) {
             <ContentNavigation v-slot="{ navigation }">
               <ul class="flex">
                 <li v-for="link of navigation" :key="link._path">
-                  <NuxtLink :to="link._path">
+                  <NuxtLink class="w-full flex rounded  px-2 py-1" :to="link._path">
                     {{ link.title }}
                   </NuxtLink>
                 </li>
               </ul>
             </ContentNavigation>
           </div>
-          <div class="md:hidden">
-            <UPopover :popper="{ placement: 'top-end', arrow: true }">
-              <UButton color="white" trailing-icon="i-heroicons-chevron-down-20-solid" />
+          <div class="md:hidden overflow-auto">
+            <UPopover :popper="{ placement: 'top-end' }">
+              <UButton variant="ghost" trailing-icon="i-basil-menu-solid" />
               <template #panel="{ open, close }">
                 <div class="p-4 dark:backdrop-blur-md dark:bg-opacity-70 bg-opacity-70 backdrop-blur-md bg-slate-50 dark:bg-slate-950">
                   <ContentNavigation v-slot="{ navigation }">
-                    <ul class="flex flex-col space-y-4">
+                    <ul class="flex flex-col space-y-2 w-full">
                       <li v-for="link of navigation" :key="link._path">
-                        <NuxtLink :to="link._path" @click="togglePopover(open, close)">
-                          <span class="underline-fx">
-                            {{ link.title }}
-                          </span>
+                        <NuxtLink class="w-full flex rounded  px-2 py-1" :to="link._path" @click="togglePopover(open, close)">
+                          {{ link.title }}
                         </NuxtLink>
                       </li>
                     </ul>
@@ -55,3 +52,14 @@ function togglePopover(open, close) {
     </header>
   </nav>
 </template>
+
+<style scoped>
+a:hover::after {
+  width: 100%;
+}
+
+a.router-link-active {
+  color: white;
+  background-color: #e53e3e;
+}
+</style>
