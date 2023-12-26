@@ -55,7 +55,3 @@ function togglePopover(open, close) {
     </header>
   </nav>
 </template>
-
-<style scoped>
-
-</style>
