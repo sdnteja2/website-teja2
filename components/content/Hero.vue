@@ -15,7 +15,8 @@
       </div>
 
       <div class="max-w-3xl mx-auto">
-        <CldImage
+        <NuxtImg
+          format="webp"
           src="image/test2.jpg"
           width="500"
           height="500"
