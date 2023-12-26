@@ -1,5 +1,6 @@
 /* eslint-disable ts/no-require-imports */
 import type { Config } from 'tailwindcss'
+import { fontFamily } from 'tailwindcss/defaultTheme'
 
 export default <Partial<Config>>{
   theme: {
@@ -33,8 +34,8 @@ export default <Partial<Config>>{
 
       },
       fontFamily: {
-        body: ['Rethink Sans', 'sans-serif'],
-        title: ['Eczar', 'sans-serif'],
+        body: ['Rethink Sans', 'Rethink Sans fallback', ...fontFamily.sans],
+        title: ['Eczar', 'Eczar fallback', ...fontFamily.sans],
       },
     },
   },
