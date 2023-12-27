@@ -12,7 +12,7 @@ const items = [{
 </script>
 
 <template>
-  <UContainer>
+  <UContainer class="py-20">
     <UTabs :items="items" :default-index="1" />
   </UContainer>
 </template>
