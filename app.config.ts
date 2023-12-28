@@ -12,12 +12,12 @@ export default defineAppConfig({
       background: 'bg-white dark:bg-gray-900',
       divide: 'divide-y divide-gray-200 dark:divide-gray-800',
       ring: 'ring-1 ring-gray-200 dark:ring-gray-800',
-      rounded: 'rounded-lg',
+      rounded: 'rounded-md',
       shadow: 'shadow',
       body: {
         base: '',
         background: '',
-        padding: 'p-3  sm:p-4',
+        padding: 'p-2  sm:p-3',
       },
       header: {
         base: '',
@@ -46,7 +46,7 @@ export default defineAppConfig({
         marker: {
           wrapper: 'absolute top-[4px] left-[4px] duration-200 ease-out focus:outline-none',
           base: 'w-full h-full',
-          background: 'bg-merah dark:bg-merah',
+          background: 'bg-merah dark:bg-merah-800',
           rounded: 'rounded-md',
           shadow: 'shadow-sm',
         },

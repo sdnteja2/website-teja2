@@ -12,7 +12,7 @@ function togglePopover(open, close) {
     <header
       class="shadow-sm fixed z-50 top-0 w-full dark:backdrop-blur-md dark:bg-opacity-70 bg-opacity-70 backdrop-blur-md bg-slate-50 dark:bg-slate-950"
     >
-      <UContainer class="container flex justify-between h-16 mx-auto">
+      <UContainer class="container flex justify-between h-14 mx-auto">
         <a rel="noopener noreferrer" href="/" aria-label="Back to homepage" class="flex items-center p-2">
           Logo
         </a>
@@ -39,10 +39,10 @@ function togglePopover(open, close) {
                   class="p-4 dark:backdrop-blur-md dark:bg-opacity-70 bg-opacity-70 backdrop-blur-md bg-slate-50 dark:bg-slate-950"
                 >
                   <ContentNavigation v-slot="{ navigation }">
-                    <ul class="flex flex-col space-y-2 w-full">
+                    <ul class="flex flex-col  ">
                       <li v-for="link of navigation" :key="link._path">
                         <NuxtLink
-                          class="w-full flex  px-2 py-1" :to="link._path"
+                          class=" flex my-1 px-2 py-1" :to="link._path"
                           @click="togglePopover(open, close)"
                         >
                           <span class="underline-fx" /> {{ link.title }}

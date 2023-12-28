@@ -30,13 +30,13 @@ defineProps({
       </div>
 
       <div data-aos="fade-up" class="max-w-3xl mx-auto">
-        <img
+        <NuxtImg
           :src="image"
           loading="lazy"
           title="SDN Teja II"
           width="250"
           height="100"
-          class="w-full h-auto aspect-video max-w-full object-cover rounded-md"
+          class="w-full h-[350px]  max-w-full object-cover rounded-md"
           alt="SDN Teja II"
         >
       </div>
