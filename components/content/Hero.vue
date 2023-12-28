@@ -38,7 +38,7 @@ defineProps({
           height="100"
           class="w-full h-[350px]  max-w-full object-cover rounded-md"
           alt="SDN Teja II"
-        >
+        />
       </div>
     </div>
   </div>

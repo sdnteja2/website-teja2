@@ -28,7 +28,7 @@ defineProps({
         <div class="md:grid md:grid-cols-2 md:gap-10 lg:gap-16 md:items-center">
           <div class="hidden md:block mb-24 md:mb-0 sm:px-6">
             <div class="relative">
-              <NuxtImg class="rounded-md  h-[450px]  w-full object-cover" height="500" width="350" :src="image" :alt="nama">
+              <NuxtImg class="rounded-md  h-[450px]  w-full object-cover" height="500" width="350" :src="image" :alt="nama" />
             </div>
           </div>
           <!-- End Col -->
@@ -49,7 +49,7 @@ defineProps({
               <div class="mt-6">
                 <div class="flex items-center">
                   <div class="sm:hidden flex-shrink-0 ">
-                    <NuxtImg class="rounded-full ring-1 ring-merah object-cover object-center h-16 w-16 " :src="image" :alt="nama">
+                    <NuxtImg class="rounded-full ring-1 ring-merah object-cover object-center h-16 w-16 " :src="image" :alt="nama" />
                   </div>
                   <div class="ms-4 md:ms-0">
                     <div class="md:text-xl font-semibold  text-gray-100 ">
