@@ -10,7 +10,7 @@ defineProps({
   },
   image: {
     type: String,
-    default: '/sdnteja2.png',
+    default: '/guru/yusup.jpg',
   },
 })
 </script>

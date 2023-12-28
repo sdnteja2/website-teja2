@@ -13,7 +13,7 @@ const fasilitas = ref([
   <div class="my-20 md:my-24 mx-auto">
     <UContainer class="md:grid md:grid-cols-2 md:items-center md:gap-12 ">
       <div class="items-center flex">
-        <NuxtImg class="rounded-md shadow bg-cover" src="/image/test2.webp" alt="Image Description" />
+        <img class="rounded-md shadow bg-cover" src="/image/test2.webp" alt="Image Description" />
       </div>
 
       <div>

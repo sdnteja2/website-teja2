@@ -1,5 +1,5 @@
 <template>
   <main>
-    <ContentDoc />
+    <ContentDoc path="/guru" />
   </main>
 </template>
