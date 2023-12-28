@@ -3,12 +3,11 @@ export default defineNuxtConfig({
   devtools: {
     enabled: true,
 
-    timeline: {
-      enabled: true,
-    },
   },
   modules: [
     '@nuxt/content',
+    '@nuxtseo/module',
+    'nuxt-simple-sitemap',
     '@nuxt/ui',
     '@nuxt/image',
     '@nuxtjs/google-fonts',
@@ -56,5 +55,14 @@ export default defineNuxtConfig({
         root: 'assets',
       },
     ],
+  },
+  site: {
+    url: 'https://sdnteja2.sch.id/',
+    name: 'SDN Teja 2',
+    description: 'Sekolah Dasar Negeri Teja 2 - Kecamatan Rajagaluh - Kabupaten Majalengka Jawa Barat',
+    defaultLocale: 'id', // not needed if you have @nuxtjs/i18n installed
+  },
+  content: {
+    documentDriven: true,
   },
 })
