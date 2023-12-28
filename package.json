@@ -15,8 +15,8 @@
     "@iconify-json/basil": "^1.1.5",
     "@nuxt/content": "^2.10.0",
     "@nuxt/ui": "^2.11.1",
-    "aos": "^2.3.4",
-    "sharp": "^0.33.1"
+    "aos": "^2.3.4"
+
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.4.6",
