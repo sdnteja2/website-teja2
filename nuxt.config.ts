@@ -2,7 +2,6 @@
 export default defineNuxtConfig({
   devtools: {
     enabled: false,
-
   },
   modules: [
     '@nuxt/content',
@@ -13,6 +12,7 @@ export default defineNuxtConfig({
     '@nuxtjs/google-fonts',
     '@nuxtjs/fontaine',
     'nuxt-delay-hydration',
+    '@nuxtjs/html-validator',
   ],
   delayHydration: {
     mode: 'mount',
