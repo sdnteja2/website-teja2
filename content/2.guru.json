@@ -1,0 +1,14 @@
+{
+  "guru": [
+    {
+      "nama": "yusup",
+      "jabatan": "Tguru penjas",
+      "img": "/yusup.jpg"
+    },
+    {
+      "nama": "iis",
+      "jabatan": "guru pai",
+      "img": "/iis.jpg"
+    }
+  ]
+}
