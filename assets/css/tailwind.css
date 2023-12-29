@@ -1,4 +1,4 @@
-@import "./fonts.css";
+@import './fonts.css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -12,11 +12,22 @@
     @apply font-body bg-slate-50 dark:bg-slate-950 text-slate-800 dark:text-slate-400;
   }
 
-  p, h1, h2, h3, h4, h5, h6 {
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     @apply text-slate-800 dark:text-slate-400;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     @apply font-title font-black tracking-wide dark:text-merah text-merah-600;
   }
 

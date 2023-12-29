@@ -19,12 +19,12 @@ defineProps({
   <div class="relative overflow-hidden">
     <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-10">
       <div class="max-w-4xl pb-8 text-center mx-auto">
-        <h1 data-aos="fade-up" class="block text-2xl font-extrabold  md:text-3xl  ">
+        <h1 data-aos="fade-up" class="block text-xl font-extrabold  md:text-3xl  ">
           SDN Teja 2 <span class="dark:text-gray-200 text-slate-800"> <br>
             {{ title }}
           </span>
         </h1>
-        <p data-aos="fade-up" class="mt-3 text-lg ">
+        <p data-aos="fade-up" class="mt-3 md:text-lg ">
           {{ description }}}
         </p>
       </div>

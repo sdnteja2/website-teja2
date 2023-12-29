@@ -12,7 +12,6 @@ export default defineNuxtConfig({
     '@nuxtjs/google-fonts',
     '@nuxtjs/fontaine',
     'nuxt-delay-hydration',
-    '@unlighthouse/nuxt',
   ],
   delayHydration: {
     mode: 'mount',
@@ -63,6 +62,35 @@ export default defineNuxtConfig({
     defaultLocale: 'id', // not needed if you have @nuxtjs/i18n installed
   },
   content: {
+    experimental: {
+      search: {
+        indexed: true,
+        ignoredTags: ['style', 'code'],
+        options:{
+            fields: ['title', 'content', 'titles'],
+            storeFields: ['title', 'content', 'titles'],
+            searchOptions: {
+              prefix: true,
+              fuzzy: 0.2,
+              boost: {
+                title: 4,
+                content: 2,
+                titles: 1
+              
+            }
+          }
+          
+        }
+      }
+  
+    },
     documentDriven: true,
+    highlight: {
+      // Theme used in all color schemes.
+      theme: 'dracula'
+      // OR
+    
+  
+    },
   },
 })

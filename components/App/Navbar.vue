@@ -17,9 +17,7 @@ function togglePopover(open, close) {
           Logo
         </a>
         <div class="flex items-center">
-          <div class="flex justify-end">
-            <AppColorModeButton />
-          </div>
+         
           <div class="hidden md:block">
             <ContentNavigation v-slot="{ navigation }">
               <ul class="flex space-x-2">
@@ -30,6 +28,9 @@ function togglePopover(open, close) {
                 </li>
               </ul>
             </ContentNavigation>
+          </div>
+          <div class="flex justify-end">
+            <AppColorModeButton />
           </div>
           <div class="md:hidden overflow-auto">
             <UPopover :popper="{ placement: 'top-end' }">

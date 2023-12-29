@@ -44,8 +44,8 @@ export default defineAppConfig({
         height: 'h-10',
         width: 'w-full',
         marker: {
-          wrapper: 'absolute top-[4px] left-[4px] duration-200 ease-out focus:outline-none',
-          base: 'w-full h-full',
+          wrapper: 'absolute top-[4px]  left-[4px] duration-200 ease-out focus:outline-none',
+          base: 'w-full h-full ',
           background: 'bg-merah dark:bg-merah-800',
           rounded: 'rounded-md',
           shadow: 'shadow-sm',
@@ -53,7 +53,7 @@ export default defineAppConfig({
         tab: {
           base: 'relative inline-flex items-center justify-center flex-shrink-0 w-full ui-focus-visible:outline-0 ui-focus-visible:ring-2 ui-focus-visible:ring-primary-500 dark:ui-focus-visible:ring-primary-400 ui-not-focus-visible:outline-none focus:outline-none disabled:cursor-not-allowed disabled:opacity-75 transition-colors duration-200 ease-out',
           background: '',
-          active: 'text-gray-900 dark:text-white',
+          active: ' text-gray-100',
           inactive: 'text-gray-500 dark:text-gray-400',
           height: 'h-8',
           padding: 'px-3',
