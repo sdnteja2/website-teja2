@@ -20,7 +20,7 @@ export default defineNuxtConfig({
     formats: ['webp'],
   },
   ui: {
-    icons: ['basil'],
+    icons: ['basil', 'solar'],
   },
   googleFonts: {
     display: 'swap',
