@@ -12,7 +12,6 @@ export default defineNuxtConfig({
     '@nuxtjs/google-fonts',
     '@nuxtjs/fontaine',
     'nuxt-delay-hydration',
-    '@nuxtjs/html-validator',
   ],
   delayHydration: {
     mode: 'mount',
