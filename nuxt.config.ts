@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: {
-    enabled: false,
+    enabled: true,
   },
   modules: [
     '@nuxt/content',
@@ -62,28 +62,28 @@ export default defineNuxtConfig({
     defaultLocale: 'id', // not needed if you have @nuxtjs/i18n installed
   },
   content: {
-    experimental: {
-      search: {
-        indexed: true,
-        ignoredTags: ['style', 'code'],
-        options:{
-            fields: ['title', 'content', 'titles'],
-            storeFields: ['title', 'content', 'titles'],
-            searchOptions: {
-              prefix: true,
-              fuzzy: 0.2,
-              boost: {
-                title: 4,
-                content: 2,
-                titles: 1
+    // experimental: {
+    //   search: {
+    //     indexed: true,
+    //     ignoredTags: ['style', 'code'],
+    //     options:{
+    //         fields: ['title', 'content', 'titles'],
+    //         storeFields: ['title', 'content', 'titles'],
+    //         searchOptions: {
+    //           prefix: true,
+    //           fuzzy: 0.2,
+    //           boost: {
+    //             title: 4,
+    //             content: 2,
+    //             titles: 1
               
-            }
-          }
+    //         }
+    //       }
           
-        }
-      }
+    //     }
+    //   }
   
-    },
+    // },
     documentDriven: true,
     highlight: {
       // Theme used in all color schemes.
