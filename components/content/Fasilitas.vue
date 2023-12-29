@@ -13,12 +13,12 @@ const fasilitas = ref([
   <div class="my-20 md:my-24 mx-auto">
     <UContainer class="md:grid md:grid-cols-2 md:items-center md:gap-12 ">
       <div class="items-center flex">
-        <img class="rounded-md shadow bg-cover" src="/image/test2.webp" alt="Image Description" />
+        <img class="rounded-md shadow bg-cover" src="/image/test2.webp" alt="Image Description">
       </div>
 
       <div>
         <div class="mt-4 md:mt-0">
-          <h2 class="md:text-3xl text-xl text-center md:text-left  ">
+          <h2 class="md:text-2xl text-lg text-center md:text-left  ">
             Fasilitas SDN Teja II
           </h2>
           <ul role="list" class="space-y-3 sm:space-y-4">

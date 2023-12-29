@@ -28,7 +28,7 @@ defineProps({
         <div class="md:grid md:grid-cols-2 md:gap-10 lg:gap-16 md:items-center">
           <div class="hidden md:block mb-24 md:mb-0 sm:px-6">
             <div class="relative">
-              <img class="rounded-md  h-[450px]  w-full object-cover" height="500" width="350" :src="image" :alt="nama" />
+              <img class="rounded-md  h-[450px]  w-full object-cover" height="500" width="350" :src="image" :alt="nama">
             </div>
           </div>
           <!-- End Col -->
@@ -41,7 +41,7 @@ defineProps({
                   Selayang Pandang
                 </p>
 
-                <p class="text-xl font-medium   md:text-2xl md:leading-normal xl:text-3xl xl:leading-normal dark:text-gray-300 ">
+                <p class="text-lg font-medium   md:text-xl md:leading-normal x xl:leading-normal dark:text-gray-300 ">
                   {{ sambutan }}
                 </p>
               </div>
@@ -49,7 +49,7 @@ defineProps({
               <div class="mt-6">
                 <div class="flex items-center">
                   <div class="sm:hidden flex-shrink-0 ">
-                    <img class="rounded-full ring-1 ring-merah object-cover object-center h-16 w-16 " :src="image" :alt="nama" />
+                    <img class="rounded-full ring-1 ring-merah object-cover object-center h-16 w-16 " :src="image" :alt="nama">
                   </div>
                   <div class="ms-4 md:ms-0">
                     <div class="md:text-xl font-semibold  text-gray-100 ">
