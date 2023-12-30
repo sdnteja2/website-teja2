@@ -31,9 +31,9 @@ function flattenLinks(links) {
     <ul class="toc-links">
       <!-- render each link with depth class -->
       <li v-for="link of flattenLinks(links)" :key="link.id" :class="`toc-link _${link.depth}`">
-        <a :href="`#${link.id}`">
+        <NuxtLink :to="`#${link.id}`">
           {{ link.text }}
-        </a>
+        </NuxtLink>
       </li>
     </ul>
   </nav>
