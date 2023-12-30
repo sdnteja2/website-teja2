@@ -20,7 +20,7 @@ useHead({
     },
   ],
 })
-defineOgImageComponent('BlogPost', {
+defineOgImageComponent('Page', {
   title: pageTitle,
 })
 </script>
